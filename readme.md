@@ -1,1 +1,1 @@
-1. <https://aleksandr3012.github.io/misterb-b/public/>
+1. <https://aleksandr3012.github.io/misterb-b/>
