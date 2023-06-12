@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<title>Document</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -494,22 +497,22 @@
 	</tbody>
 </table>
 
-	<script>
-		// Запрещаем поворот экрана в горизонтальное положение
-		function lockScreenOrientation() {
-			if (window.screen.orientation && window.screen.orientation.lock) {
-				window.screen.orientation.lock('portrait');
-			} else if (window.screen.lockOrientation) {
-				window.screen.lockOrientation('portrait');
-			} else if (window.screen.mozLockOrientation) {
-				window.screen.mozLockOrientation('portrait');
-			} else if (window.screen.msLockOrientation) {
-				window.screen.msLockOrientation('portrait');
-			}
-		}
+<!--	<script>-->
+<!--		// Запрещаем поворот экрана в горизонтальное положение-->
+<!--		function lockScreenOrientation() {-->
+<!--			if (window.screen.orientation && window.screen.orientation.lock) {-->
+<!--				window.screen.orientation.lock('portrait');-->
+<!--			} else if (window.screen.lockOrientation) {-->
+<!--				window.screen.lockOrientation('portrait');-->
+<!--			} else if (window.screen.mozLockOrientation) {-->
+<!--				window.screen.mozLockOrientation('portrait');-->
+<!--			} else if (window.screen.msLockOrientation) {-->
+<!--				window.screen.msLockOrientation('portrait');-->
+<!--			}-->
+<!--		}-->
 
-		// Вызываем функцию блокировки при загрузке страницы
-		window.addEventListener('load', lockScreenOrientation);
-	</script>
+<!--		// Вызываем функцию блокировки при загрузке страницы-->
+<!--		window.addEventListener('load', lockScreenOrientation);-->
+<!--	</script>-->
 </body>
 </html>
